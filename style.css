@@ -33,6 +33,14 @@
     
   }
 
+  @media screen and (max-width:768px){
+    .nav-link:hover{
+           
+      border-bottom: none;
+      
+    }
+  }
+
   /*card-immersive section*/
   .card{
     background: none;
@@ -324,6 +332,8 @@ ul li a {
       text-align: center;
       font-size: 18px;
     }
+
+    
   
     .display2 h1{
       position: relative;
